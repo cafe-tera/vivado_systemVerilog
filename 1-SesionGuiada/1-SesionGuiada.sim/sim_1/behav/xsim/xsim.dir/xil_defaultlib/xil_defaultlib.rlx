@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/test_simple.sv,1588974440,systemVerilog,,,,test_simple,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/testbench_fibbinario.sv,1588973118,systemVerilog,,,,testbench_fibbinario,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/testbench_simple.sv,1588970362,systemVerilog,,,,testbench_simple,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sources_1/new/cable.sv,1588966083,systemVerilog,,D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/testbench_simple.sv,,cable,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sources_1/new/fib_rec.sv,1588974096,systemVerilog,,D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/test_simple.sv,,fib_rec,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sources_1/new/fibbinario.sv,1588971282,systemVerilog,,D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/testbench_fibbinario.sv,,fibbinario,,,,,,,,
+D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sources_1/new/logica_simple.sv,1588966077,systemVerilog,,D:/VivadoProyects/1-SesionGuiada/1-SesionGuiada.srcs/sim_1/new/testbench_simple.sv,,logica_simple,,,,,,,,

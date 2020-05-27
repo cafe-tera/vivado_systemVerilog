@@ -1,0 +1,105 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "logica_simple")
+(DATE "Fri May  8 16:18:01 2020")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2019.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE A_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (837.7:971.3:971.3) (837.7:971.3:971.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE B_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (837.7:971.3:971.3) (837.7:971.3:971.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE C_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (837.7:971.3:971.3) (837.7:971.3:971.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE X_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2476.8:2633.1:2633.1) (2476.8:2633.1:2633.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Y_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2476.8:2633.1:2633.1) (2476.8:2633.1:2633.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE Y_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE Z_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2476.8:2633.1:2633.1) (2476.8:2633.1:2633.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE Z_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "logica_simple")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT A_IBUF_inst/O X_OBUF_inst/I (763.7:803.9:803.9) (763.7:803.9:803.9))
+      (INTERCONNECT A_IBUF_inst/O Y_OBUF_inst_i_1/I0 (762.7:802.9:802.9) (762.7:802.9:802.9))
+      (INTERCONNECT B_IBUF_inst/O Z_OBUF_inst_i_1/I0 (762.7:802.9:802.9) (762.7:802.9:802.9))
+      (INTERCONNECT C_IBUF_inst/O Z_OBUF_inst_i_1/I1 (762.7:802.9:802.9) (762.7:802.9:802.9))
+      (INTERCONNECT Y_OBUF_inst_i_1/O Y_OBUF_inst/I (763.7:803.9:803.9) (763.7:803.9:803.9))
+      (INTERCONNECT Z_OBUF_inst_i_1/O Z_OBUF_inst/I (763.7:803.9:803.9) (763.7:803.9:803.9))
+      )
+    )
+)
+)
