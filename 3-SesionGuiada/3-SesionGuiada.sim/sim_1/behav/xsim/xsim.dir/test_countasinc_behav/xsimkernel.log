@@ -1,0 +1,4 @@
+Running: xsim.dir/test_countasinc_behav/xsimk.exe -simmode gui -wdb test_countasinc_behav.wdb -simrunnum 0 -socket 53012
+Design successfully loaded
+Design Loading Memory Usage: 5432 KB (Peak: 5432 KB)
+Design Loading CPU Usage: 0 ms
