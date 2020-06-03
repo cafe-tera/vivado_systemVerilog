@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_BCD_to_sevenSeg_behav/xsimk.exe -simmode gui -wdb testbench_BCD_to_sevenSeg_behav.wdb -simrunnum 0 -socket 58813
+Design successfully loaded
+Design Loading Memory Usage: 5448 KB (Peak: 5448 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 6096 KB (Peak: 6096 KB)
+Simulation CPU Usage: 0 ms

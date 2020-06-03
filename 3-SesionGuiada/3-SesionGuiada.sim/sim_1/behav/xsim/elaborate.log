@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 618fde3cf477487ea8cfaa71fa02aaa5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_countasinc_behav xil_defaultlib.test_countasinc xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'dec' [D:/VivadoProyects/vivado_systemVerilog/3-SesionGuiada/3-SesionGuiada.srcs/sim_1/test_countasinc.sv:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.enable_cont(N=3)
+Compiling module xil_defaultlib.test_countasinc
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_countasinc_behav
