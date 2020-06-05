@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v" \
+"../../../../304-Sesion4.srcs/sources_1/new/control_mux.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/mux.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/trans_reloj.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/S4_Actividad2.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/S4_Actividad3.sv" \
+"../../../../304-Sesion4.srcs/sources_1/new/ALU.sv" \
+"../../../../304-Sesion4.srcs/sim_1/new/Contador.sv" \
+"../../../../304-Sesion4.srcs/sim_1/new/Actividad1Test.sv" \
+"../../../../304-Sesion4.srcs/sim_1/new/muxtest.sv" \
+"../../../../304-Sesion4.srcs/sim_1/new/Actividad2Test.sv" \
+"../../../../304-Sesion4.srcs/sim_1/new/reloj_test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

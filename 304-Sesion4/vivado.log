@@ -1,0 +1,327 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jun  5 00:33:28 2020
+# Process ID: 20172
+# Current directory: C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14472 C:\Users\Rudolf\Desktop\Apps\vivado_systemVerilog\304-Sesion4\304-Sesion4.xpr
+# Log file: C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/vivado.log
+# Journal file: C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Actividad1test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Actividad1test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_to_sevenSeg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/control_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/trans_reloj.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans_reloj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Contador.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Contador
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Actividad1test
+ERROR: [VRFC 10-2989] 'CLK100MHZ' is not declared [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:33]
+ERROR: [VRFC 10-2989] 'CLK100MHZ' is not declared [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:37]
+ERROR: [VRFC 10-2865] module 'Actividad1test' ignored due to previous errors [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_runs synth_1 -jobs 6
+[Fri Jun  5 00:34:16 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Fri Jun  5 00:34:54 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1280.680 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1359.152 ; gain = 0.074
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1359.152 ; gain = 0.074
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1359.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1507.145 ; gain = 283.887
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: S4_Actividad1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2029.285 ; gain = 96.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'S4_Actividad1' [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'BCD_to_sevenSeg' [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'BCD_to_sevenSeg' (1#1) [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'trans_reloj' [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/trans_reloj.sv:23]
+	Parameter frec_ent bound to: 100000000 - type: integer 
+	Parameter frec_sal bound to: 160 - type: integer 
+	Parameter COUNT_MAX bound to: 312500 - type: integer 
+	Parameter DELAY_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'trans_reloj' (2#1) [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/trans_reloj.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'control_mux' [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/control_mux.sv:23]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'control_mux' (3#1) [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/control_mux.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/mux.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (4#1) [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/mux.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'S4_Actividad1' (5#1) [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2076.691 ; gain = 143.891
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2097.539 ; gain = 164.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2097.539 ; gain = 164.738
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2097.539 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2199.652 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2199.652 ; gain = 266.852
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2199.652 ; gain = 266.852
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Actividad1test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Actividad1test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_to_sevenSeg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/control_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/trans_reloj.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans_reloj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Contador.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Contador
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Actividad1test
+ERROR: [VRFC 10-2989] 'CLK100MHZ' is not declared [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:33]
+ERROR: [VRFC 10-2989] 'CLK100MHZ' is not declared [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:37]
+ERROR: [VRFC 10-2865] module 'Actividad1test' ignored due to previous errors [C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Actividad1test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Actividad1test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/BCD_to_sevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_to_sevenSeg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/control_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/trans_reloj.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans_reloj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/S4_Actividad3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S4_Actividad3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sources_1/new/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Contador.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Contador
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad1Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Actividad1test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/muxtest.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxtest
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/Actividad2Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Actividad2Test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.srcs/sim_1/new/reloj_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reloj_test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xelab -wto 00512533563f477eabe1f5166e55e0bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Actividad1test_behav xil_defaultlib.Actividad1test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 00512533563f477eabe1f5166e55e0bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Actividad1test_behav xil_defaultlib.Actividad1test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCD_to_sevenSeg
+Compiling module xil_defaultlib.trans_reloj(frec_sal=160)
+Compiling module xil_defaultlib.control_mux(N='b0100)
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.S4_Actividad1
+Compiling module xil_defaultlib.Actividad1test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Actividad1test_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xsim.dir/Actividad1test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim/xsim.dir/Actividad1test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jun  5 00:37:34 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun  5 00:37:34 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2610.625 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Actividad1test_behav -key {Behavioral:sim_1:Functional:Actividad1test} -tclbatch {Actividad1test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source Actividad1test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Actividad1test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2637.668 ; gain = 27.043
+set_property -name {xsim.simulate.runtime} -value {100000000ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2637.668 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Actividad1test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Actividad1test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+"xelab -wto 00512533563f477eabe1f5166e55e0bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Actividad1test_behav xil_defaultlib.Actividad1test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 00512533563f477eabe1f5166e55e0bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Actividad1test_behav xil_defaultlib.Actividad1test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rudolf/Desktop/Apps/vivado_systemVerilog/304-Sesion4/304-Sesion4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Actividad1test_behav -key {Behavioral:sim_1:Functional:Actividad1test} -tclbatch {Actividad1test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source Actividad1test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 100000000ns
+run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2637.668 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2637.668 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Actividad1test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100000000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2637.668 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  5 00:38:46 2020...
