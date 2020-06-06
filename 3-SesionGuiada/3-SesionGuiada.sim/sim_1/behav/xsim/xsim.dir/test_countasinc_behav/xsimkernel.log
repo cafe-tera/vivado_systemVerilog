@@ -2,3 +2,6 @@ Running: xsim.dir/test_countasinc_behav/xsimk.exe -simmode gui -wdb test_countas
 Design successfully loaded
 Design Loading Memory Usage: 5432 KB (Peak: 5432 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 6104 KB (Peak: 6104 KB)
+Simulation CPU Usage: 15 ms
